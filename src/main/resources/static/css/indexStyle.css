@@ -1,0 +1,143 @@
+.main-content {
+  margin-top: 20px;
+}
+
+
+.main-title {
+  background-color: #fcfcf6;
+  margin-inline: auto;
+  border-radius: 50px;
+  width: 70%;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px #000000ca;
+  
+  & h1 {
+    padding-block: 0.5em;
+    font-family: 'Tilt Prism', cursive;
+    color: #94c0a0;
+    text-align: center;
+    white-space: nowrap;
+    animation: scrollText 16s linear infinite;
+    
+    & span {
+      color: #6fa2dd;
+    }
+  }
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#middle-title {
+  background-color: #fcfcf6a5;
+  padding-block: 10px;
+  font-family: 'Comfortaa';
+  color: #6fa2dd;
+  font-size: 2em;
+  margin-block: 20px;
+  text-align: center;
+
+  & span {
+    color: #248b63;
+  }
+}
+
+#biography {
+  margin-inline: 4em;
+  margin-block: 0.5em;
+  font-size: 20px;
+  text-align: start;
+  color: black;
+}
+
+.son-toMiddle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cards-container {
+  margin-left: 4%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.book-card {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px 10px;
+  margin-bottom: 2em;
+  width: 220px;
+  border-radius: 50px;
+  background-color: #fcfcf6;
+  box-shadow: 0px 0px 15px #000000ca;
+  min-height: 300px;
+
+  & a {
+    color: inherit;
+  }
+
+  & h3 {
+    color: #6fa2dd;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+  }
+  & p {
+    margin-bottom: 10px;
+  }
+
+  & form {
+    margin-top: 10px;
+  }
+}
+
+.button {
+  text-decoration: none;
+  background-color: transparent;
+  color: #248b63;
+  font-weight: bold;
+  border-radius: 50px;
+  padding-inline: 8px;
+  font-size: 1em;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.links {
+  text-decoration: none;
+  color: #6fa2dd;
+}
+
+h4 {
+  color: #868686;
+}
+
+
+.gender-card {
+  box-sizing: border-box;
+  text-align: center;
+  width: 150px;
+  padding: 1.5em 2em;
+  border-radius: 50px;
+  background-color: #fcfcf6;
+  box-shadow: 0px 0px 15px #000000ca;
+}
+
+.gender-card a {
+  font-family: 'Comfortaa';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #6fa2dd;
+  font-size: 1em;
+  text-decoration: none;
+}

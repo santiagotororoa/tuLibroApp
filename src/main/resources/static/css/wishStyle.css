@@ -1,0 +1,41 @@
+.main-content {
+  padding: 2em 4em;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  background-color: #bbe0d26b;
+  padding: 0.5em 2em;
+  border-radius: 50px;
+  box-shadow: 0px 0px 8px #00000089;
+
+  & span {
+    color: #6fa2dd;
+    font-style: italic;
+  }
+}
+
+.item-list {
+  margin-top: 2em;
+  border-radius: 50px;
+  background-color: #6fa2dd72;
+  padding: 0.4em 1.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  & button, a {
+    font-size: 1em;
+    text-decoration: none;
+    color: inherit;
+    padding: 0.2em 1em;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+button:hover, a:hover {
+  background-color: #ddd;
+}
